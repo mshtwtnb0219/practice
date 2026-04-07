@@ -1,14 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>練習</title>
-</head>
-<body>
-   <h1> ドットインストール</h1>
-   <h2>サービスの特徴</h2>
-   <h2>提供中のレッスン</2>
-   <h2>サービスの沿革</h2>
-</body>
+  </head>
+
+  <body>
+    <header>
+    <img src="./MyHTMLTags/logo.png" alt="ロゴ" width="160" height="160" />
+    <h1>ドットインストール</h1>
+    </header>
+
+
+    <nav>
+    <h2>目次</h2>
+    <ol>
+        <li><a href="#features">サービスの特徴</a></li>
+        <li><a href="#lessons">提供中のレッスン</a></li>
+        <li><a href="#history">サービスの沿革</a></li>
+    </ol>
+    </nav>
+
+
+    <section id="features">
+        <h2>サービスの特徴</h2>
+         <p>プログラミング学習サービスです。</p>
+    </section>
+
+    <section id="lessons">
+    <h2>提供中のレッスン</h2>
+    <p>次のようなサービスを提供中です。</p>
+    <!-- 箇条書きリスト -->
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    </section>
+
+
+    <!-- 順序付きリスト -->
+    <!-- <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol> -->
+
+    <!-- 説明リスト -->
+    <!-- <dl>
+        <dt>HTML</dt>
+        <dd>文書の意味</dd>
+        <dt>CSS</dt>
+        <dd>文書の意味</dd>
+        <dt>JavaScript</dt>
+        <dd>文書の意味</dd>
+    </dl> -->
+
+
+    <section id="history">
+
+    <h2>サービスの沿革</h2>
+    <p>サービスの沿革は以下の通りです。</p>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>年</th>
+          <th>出来事</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2011</td>
+          <td>サービス開始</td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td><a href="https://256times.com" target="_blank">サービス開始</td>
+        </tr>
+      </tbody>
+    </table>
+    </section>
+
+    <footer><small>(C) 2023 ドットインストール</small></footer>
+
+  </body>
 </html>
