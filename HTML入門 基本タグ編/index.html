@@ -3,44 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="プログラミング学習">
+    <meta name="description" content="プログラミング学習" />
     <title>練習1</title>
-    <link rel="icon" href="./MyHTMLTags/favicon.png">
+    <link rel="icon" href="./MyHTMLTags/favicon.png" />
   </head>
 
   <body>
     <header>
-    <img src="./MyHTMLTags/logo.png" alt="ロゴ" width="160" height="160" />
-    <h1>ドットインストール</h1>
+      <img src="./MyHTMLTags/logo.png" alt="ロゴ" width="160" height="160" />
+      <h1>ドットインストール</h1>
     </header>
 
+    <section id="features">
+      <h2>サービスの特徴</h2>
+      <p>プログラミング学習サービスです。</p>
+    </section>
 
-    <nav>
+    <section id="lessons">
+      <h2>提供中のレッスン</h2>
+      <p>次のようなサービスを提供中です。</p>
+      <!-- 箇条書きリスト -->
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+
+    <!-- <nav>
     <h2>目次</h2>
     <ol>
         <li><a href="#features">サービスの特徴</a></li>
         <li><a href="#lessons">提供中のレッスン</a></li>
         <li><a href="#history">サービスの沿革</a></li>
     </ol>
-    </nav>
-
-
-    <section id="features">
-        <h2>サービスの特徴</h2>
-         <p>プログラミング学習サービスです。</p>
-    </section>
-
-    <section id="lessons">
-    <h2>提供中のレッスン</h2>
-    <p>次のようなサービスを提供中です。</p>
-    <!-- 箇条書きリスト -->
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-    </section>
-
+    </nav> -->
 
     <!-- 順序付きリスト -->
     <!-- <ol>
@@ -59,8 +56,7 @@
         <dd>文書の意味</dd>
     </dl> -->
 
-
-    <section id="history">
+    <!-- <section id="history">
 
     <h2>サービスの沿革</h2>
     <p>サービスの沿革は以下の通りです。</p>
@@ -82,9 +78,32 @@
         </tr>
       </tbody>
     </table>
-    </section>
+    </section> -->
+
+    <!-- 関連リンク -->
+    <!-- <aside>
+    <h2>広告</h2>
+    <p>広告です・広告です・広告です</p>
+     </aside> -->
+
+
+     <section>
+      <h2>お知らせ</h2>
+      <article>
+        <p>新機能の内容は以下の通りです。</p>   
+        <p>登校日 <time>2023-10-01</time></p>
+      </article>
+      <h3><span style="color: red;">新</span>機能ができました。</h3>
+      <article>
+        <div style="margin-left: 40px;">
+          <p>今週のタグ<code>&lt;h1&gt;</code> </p>   
+          <p>登校日 <time>2023-10-01</time></p>
+        </div>
+
+      </article>
+   
+     </section>
 
     <footer><small>(C) 2023 ドットインストール</small></footer>
-
   </body>
 </html>
