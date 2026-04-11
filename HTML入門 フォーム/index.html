@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label>お名前<input type="text" value="山田太郎"/></label>
+        <label>pass<input type="password" value="山田太郎"/></label>
+        <label>お名前<input type="number" value="山田太郎"/></label>
+        <label>お名前<input type="date" value="山田太郎"/></label>
+      </div>
+      <div>
+        <fieldset>
+          <legend>対象の商品</legend>
+          <label><input type="checkbox" checked /> 商品A</label>
+          <label><input type="checkbox" checked /> 商品B</label>
+          <label><input type="checkbox" /> 商品C</label>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend>延長保証</legend>
+          <label><input type="radio" name="warraynty" checked /> 加入済み</label>
+          <label><input type="radio" name="warraynty"/> 未加入</label>
+          <label><input type="radio" name="warraynty"/>わからない</label>
+        </fieldset>
+      </div>
+      <dvi>
+        <label>
+            種別
+        <select>
+            <!-- <option>--お問い合わせを選択してください--</option> -->
+            <option >商品が届かない</option>
+            <option selected>間違えて注文した</option>
+            <option>商品が壊れた</option>
+            <option>決済手段を間違えた</option>
+            <option>その他</option>
+        </select>
+        </label>
+
+      </dvi>
+      <div>
+        <label>内容<textarea>こんにちは</textarea></label>
+      </div>
+
+
+    <div>
+        <button disabled=>送信</button>
+        <!-- <input type="submit" value="送信"> -->
+    </div>
+
+    </form>
+  </body>
+</html>
