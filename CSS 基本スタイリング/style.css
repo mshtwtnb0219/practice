@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  font-family:
+    "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+h1 {
+  /* background-color: skyblue; */
+  padding: 8px;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  font-size: 20px;
+  /* color: blue; */
+  /* font-size: 16px;
+    font-weight: normal;
+    text-align: center; */
+}
+
+p {
+  /* background-color: pink; */
+  line-height: 1.6;
+  padding: 8px;
+  margin: 0;
+  /* font-weight: bold;
+    text-align: right; */
+  /* margin: 0 0 0 16px;
+    margin: 0;
+    margin: 0 auto 0 auto; */
+
+  /* width: 160px;
+    height: 160px; */
+
+  /* box-shadow: 8px 8px 8px gray; */
+  /* box-shadow: 0 0 8px gray; */
+
+  /* 外枠を半径で丸める */
+  /* border-radius: 50%;
+    border: 8px solid blue; */
+
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+
+  /* border: 8px solid blue;
+    padding: 8px;
+    box-sizing: border-box; */
+
+  /* width: 160px;
+    height: 160px;
+    border: 8px solid blue;
+    padding: 16px; */
+
+  /* border-width: 8px;
+    border-style: solid;
+    border-color: blue; */
+  /* border: 8px solod blue; */
+
+  /* 一括指定 */
+  /* border-top: 8px dashed blue;
+    border-bottom: 8px double blue; */
+}
+
+section {
+  border: 1px solid lightgray;
+  width: 400px;
+  margin: 32px auto;
+  border-radius: 8px;
+}
