@@ -55,11 +55,48 @@ p {
 } */
 
 /* 子要素 */
-section > p {
+/* section > p {
     color: red;
-}
+} */
 
 /* 子孫要素 */
-section p {
+/* section p {
     background: blue;
+} */
+
+/* 兄妹要素 */
+/* li + li{
+    border-top: 1px solid red;
+} */
+
+
+/* 疑似クラス */
+/* 兄妹要素のうち3番目 */
+/* li:nth-child(3n) {
+    color: red;
+} */
+
+/* button:hover {
+    font-weight: bold;
+}
+
+input:focus {
+    border: 8px solid red;
+}
+
+button:active {
+    border: 8px solid red;
+} */
+
+/* div:not(.box) {
+    border: 1px solid red;
+} */
+
+/* 疑似要素 */
+p::before {
+    content: '-';
+}
+
+p::after {
+    content: '-';
 }
