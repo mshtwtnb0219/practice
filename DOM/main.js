@@ -2,7 +2,7 @@
 
 {
   // イベントリスナー
-  document.querySelector("button").addEventListener("click", () => {
+  // document.querySelector("button").addEventListener("click", () => {
     // テキストコンテンツ
     // document.querySelector("p").textContent = "こんにちは！";
 
@@ -40,24 +40,51 @@
     //   document.querySelector("#second").remove();
     // }
 
+    // form部品の処理
+    // alert(document.querySelector("input").value)
+    // alert(document.querySelector("textarea").value);
+    // document.querySelector("textarea").value = '';
 
-  // form部品の処理
-  // alert(document.querySelector("input").value)
-  // alert(document.querySelector("textarea").value);
-  // document.querySelector("textarea").value = '';
+    // ドロップダウンリストの取得 value属性の値が取得される
+    // alert(document.querySelector('select').value);
 
-  // ドロップダウンリストの取得
-  alert(document.querySelector('select').value);
+    // ラジオボタンで選択された値を取得する
+    // document.querySelectorAll("input").forEach((radio) => {
+    //   radio.checked === true ? alert(radio.value) : null;
+    // });
+
+    // チェックボックスで選択された値を取得する
+    // const colors = [];
+    // document.querySelectorAll("input").forEach((check) => {
+    //   if (check.checked === true) {
+    //     colors.push(check.value);
+    //   }
+    // });
+    // alert(colors.join(","));
+
+  // });
 
 
 
 
+    // 入力部品の値が変更された際のイベント
+    // document.querySelector('input').addEventListener( 'input', ()  => {
+    //   const pElement = document.querySelector('p');
+    //   const inputElement = document.querySelector('input');
+    //   pElement.textContent = inputElement.value.length;
+    // });
 
 
+    // フォーカス　ブラー
+    document.querySelector('input').addEventListener('focus', () => {
+      document.querySelector('p').textContent = '入力してください';
+    });
+
+        document.querySelector('input').addEventListener('blur', () => {
+      document.querySelector('p').textContent = '';
+    });
+
+    document.querySelector('input').focus(); // フォーカスを当てる
 
 
-
-
-
-  });
 }
