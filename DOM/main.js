@@ -76,15 +76,46 @@
 
 
     // フォーカス　ブラー
-    document.querySelector('input').addEventListener('focus', () => {
-      document.querySelector('p').textContent = '入力してください';
-    });
+    // document.querySelector('input').addEventListener('focus', () => {
+    //   document.querySelector('p').textContent = '入力してください';
+    // });
 
-        document.querySelector('input').addEventListener('blur', () => {
-      document.querySelector('p').textContent = '';
-    });
+    //     document.querySelector('input').addEventListener('blur', () => {
+    //   document.querySelector('p').textContent = '';
+    // });
 
-    document.querySelector('input').focus(); // フォーカスを当てる
+    // document.querySelector('input').focus(); // フォーカスを当てる
+
+
+    // keyが押下された際のイベント
+    // document.addEventListener('keydown', (e) => {
+    //   // 入力されたkeyを取得
+    //   document.querySelector('p').textContent = e.key;
+
+    // })
+
+    // マウスイベント
+    // document.addEventListener('mousemove', (e) => {
+    //   document.querySelector('p').textContent = `X: ${e.clientX}, Y: ${e.clientY}`;
+    // })
+
+    // フォームタグのイベント enterキーにも対応している
+    // document.querySelector('form').addEventListener('submit', (e) => {
+    //   e.preventDefault(); // 送信のキャンセル
+    //   document.querySelector('p').textContent = document.querySelector('input').value;
+
+    // })
+
+
+    // style属性の操作
+        document.querySelector('button').addEventListener('click', () => {
+          //  document.querySelector('p').style = 'font-size: 30px';
+           document.querySelector('p').style.fontSize = '30px';
+
+
+
+
+        });
 
 
 }
